@@ -1,0 +1,35 @@
+{
+	"uploadOnSave": true,
+	"autoDelete": true,
+	"checkGitignore": false,
+	"activeTargets": [
+		"My FTP"
+	],
+	"concurrency": 5,
+	"ignore": [
+		".git/**/*",
+		".vscode/**/*"
+	],
+	"targets": [
+		{
+			"name": "whdmcl.com",
+			"type": "ftp",
+			"host": "whdmcl.com",
+			"port": 21,
+			"user": "test@whdmcl.com",
+			"password": "test0101",
+			"dir": "/"
+		},
+		{
+			"name": "My SFTP",
+			"type": "sftp",
+			"host": "localhost",
+			"port": 22,
+			"user": "admin",
+			"password": "123456",
+			"dir": "/",
+			"privateKey": null,
+			"passphrase": null
+		}
+	]
+}
