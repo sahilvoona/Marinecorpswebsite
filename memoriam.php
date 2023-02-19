@@ -2,43 +2,41 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Events - MCLWHD</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+    <title>In Memoriam - MCLWHD</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/mcLogo.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Favicons -->
+    <link href="assets/img/mcLogo.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Gp - v2.1.0
-  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-
+    <!-- =======================================================
+    * Template Name: Gp - v2.1.0
+    * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
 </head>
 
 <body>
-
 
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top header-inner-pages">
@@ -48,10 +46,11 @@
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
+
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="events.html">Events</a></li>
+                    <li ><a href="index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li class="drop-down">
                         <a href="#">Staff</a>
@@ -64,7 +63,7 @@
                     </li>
                     <li><a href="shootingteam.html">Shooting Team</a></li>
                     <li><a href="https://mcl-west-hudson-detachment.square.site/">Quartermaster</a></li>
-                    <li><a href="memoriam.php">In Memoriam</a></li>
+                    <li class="active"><a href="memoriam.html">In Memoriam</a></li>
                     <li><a href="news.html">Publications</a></li>
                     <li><a href="links.html">Links and Forms</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -89,15 +88,30 @@
 
             </div>
         </section><!-- End Breadcrumbs -->
-        <!--
-        <div style="width: 80%; margin: auto">
-            <div data-tockify-component="calendar" data-tockify-calendar="marinecorpstest"></div>
-            <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
-        </div>
-        -->
 
-        <div class="align-items-center" style="margin: auto" align="center">
-            <iframe src="https://calendar.google.com/calendar/embed?src=whdmcl%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+
+        <div style="padding:2%">
+            <h2>Marines</h2>
+        </div>
+
+        <div class="row" style="padding: 2%">
+<?php
+            if (($lines=file("pastmarines.txt")) == FALSE) {
+                echo "Unable to access information. Please try later<br>\n";
+                return;
+            }
+
+            $noItems = count($lines);
+            for($a=0; $a < $noItems; $a++) {
+                list($name, $year) = preg_split("[\t]", rtrim($lines[$a]));
+?>
+            <div class="col-lg-3 col-md-6 align-items-center" data-aos="zoom-in" data-aos-delay="150">
+                <h4><?php echo $name ?></h4>
+                <p><?php echo $year ?></p>
+            </div>
+<?php
+            }
+?>
         </div>
 
     </main><!-- End #main -->
@@ -140,7 +154,7 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="commandants.html">Past Commandants</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="https://mcl-west-hudson-detachment.square.site/">Quartermaster</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="shootingteam.html">Shooting Team</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="memoriam.php">In Memoriam</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="memoriam.html">In Memoriam</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="news.html">Publications</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="links.html">Links and Forms</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
