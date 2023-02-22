@@ -2,38 +2,38 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Ladies Auxilliary - MCLWHD</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+    <title>In Memoriam - MCLWHD</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/mcLogo.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Favicons -->
+    <link href="assets/img/mcLogo.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Gp - v2.1.0
-  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <!-- =======================================================
+    * Template Name: Gp - v2.1.0
+    * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
 </head>
 
 <body>
@@ -49,7 +49,7 @@
 
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li ><a href="index.html">Home</a></li>
                     <li><a href="events.html">Events</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li class="drop-down">
@@ -57,13 +57,12 @@
                         <ul>
                             <li><a href="officers.html">Officers</a></li>
                             <li><a href="committee.html">Staff/Committees</a></li>
-                            <li  class="active"><a href="laux.html">Marine Corps Ladies Auxillary</a></li>
                             <li><a href="commandants.html">Past Commandants</a></li>
                         </ul>
                     </li>
                     <li><a href="shootingteam.html">Shooting Team</a></li>
                     <li><a href="https://mcl-west-hudson-detachment.square.site/">Quartermaster</a></li>
-                    <li><a href="memoriam.html">In Memoriam</a></li>
+                    <li class="active"><a href="memoriam.html">In Memoriam</a></li>
                     <li><a href="news.html">Publications</a></li>
                     <li><a href="links.html">Links and Forms</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -88,71 +87,31 @@
 
             </div>
         </section><!-- End Breadcrumbs -->
-        <!-- ======= Services Section ======= -->
-        <section id="services" class="services">
-            <div class="container" data-aos="fade-up">
 
-                <div class="section-title">
-                    <h2>Marine Corps</h2>
-                    <p>Ladies Auxillary</p>
-                </div>
 
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="icon-box">
-                            <h4>
-                                President
-                            </h4>
-                            <h4>Alima Zimmer</a></h4>
-                        </div>
-                    </div>
+        <div style="padding:2%">
+            <h2>Marines</h2>
+        </div>
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="icon-box">
-                            <h4>Senior Vice President</h4>
-                            <h4>Linda Kaplarczuk</a></h4>
-                        </div>
-                    </div>
+        <div class="row" style="padding: 2%">
+<?php
+            if (($lines=file("pastmarines.txt")) == FALSE) {
+                echo "Unable to access information. Please try later<br>\n";
+                return;
+            }
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="icon-box">
-                            <h4>Junior Vice President</h4>
-                            <h4>June Garapent</a></h4>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="icon-box">
-                            <h4><br />Chaplain</h4>
-                            <h4>Eileen Carlstedt</a></h4>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="icon-box">
-                            <h4>Judge Advocate</h4>
-                            <h4>Jean Curcio</a></h4>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="icon-box">
-                            <h4><br />Secretary / Treasurer</h4>
-                            <h4>Terri Mitchell</a></h4>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="icon-box">
-                            <h4>Guard</h4>
-                            <h4>Helene Streckfuss</a></h4>
-                        </div>
-                    </div>
-
-                </div>
-
+            $noItems = count($lines);
+            for($a=0; $a < $noItems; $a++) {
+                list($name, $year) = preg_split("[\t]", rtrim($lines[$a]));
+?>
+            <div class="col-lg-3 col-md-6 align-items-center" data-aos="zoom-in" data-aos-delay="150">
+                <h4><?php echo $name ?></h4>
+                <p><?php echo $year ?></p>
             </div>
-        </section><!-- End Services Section -->
+<?php
+            }
+?>
+        </div>
 
     </main><!-- End #main -->
     <!-- ======= Footer ======= -->
@@ -185,7 +144,6 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="gallery.html">Gallery</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="officers.html">Officers</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="committee.html">Committees</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="laux.html">Ladies Auxillary</a></li>
                         </ul>
                     </div>
 
