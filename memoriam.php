@@ -114,6 +114,7 @@
         </div>
 
     </main><!-- End #main -->
+
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="footer-top">
@@ -122,7 +123,7 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-info">
-                            <h3>Marine Corps League<span>.</span></h3>
+                            <h3>Marine Corps League</h3>
                             <p>
                                 286 Belgrove Drive, Kearny<br>
                                 NJ 07032, USA<br><br>
@@ -152,7 +153,7 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="commandants.html">Past Commandants</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="https://mcl-west-hudson-detachment.square.site/">Quartermaster</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="shootingteam.html">Shooting Team</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="memoriam.html">In Memoriam</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="memoriam.php">In Memoriam</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="news.html">Publications</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="links.html">Links and Forms</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
@@ -170,7 +171,7 @@
 
         <div class="container">
             <div class="copyright">
-                &copy; 2022 Copyright <strong><span>Marine Corps League, West Hudson Detachment 209</span></strong>. All Rights Reserved
+                &copy; 2024 Copyright <strong><span>Marine Corps League, West Hudson Detachment 209</span></strong>. All Rights Reserved.<br>The Eagle, Globe and Anchor emblem and the name Marine Corps&reg are registered trademarks of the USMC. The Marine Corps League and its subordinate organizations support the USMC and its veterans, however it is not officially connected to or endorsed by the USMC, and the name and emblem are used with permission.
             </div>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
