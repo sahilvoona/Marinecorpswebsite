@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -57,7 +57,7 @@
                         <ul>
                             <li><a href="officers.html">Officers</a></li>
                             <li><a href="committee.html">Staff/Committees</a></li>
-                            <li class="active"><a href="commandants.html">Past Commandants</a></li>
+                            <li class="active"><a href="pastcommandants.php">Past Commandants</a></li>
                         </ul>
                     </li>
                     <li><a href="shootingteam.html">Shooting Team</a></li>
@@ -95,6 +95,7 @@
                         <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
                             <h3>Past Commandants</h3>
                         </div>
+<<<<<<< HEAD:commandants.html
                         <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
                             <h4>Jack Engdahl</h4>
                             <p>2022 – 2024</p>
@@ -218,7 +219,25 @@
 
 
 
+=======
+<?php
+                    if (($lines=file("pastcommandants.txt")) == FALSE) {
+                        echo "Unable to access information. Please try later<br>\n";
+                        return;
+                    }
+>>>>>>> freda_241102:pastcommandants.php
 
+                    $noItems = count($lines);
+                    for($a=0; $a < $noItems; $a++) {
+                        list($name, $year) = preg_split("[\t]", rtrim($lines[$a]));
+?>
+                        <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+                            <h4><?php echo $name ?></h4>
+                            <p><?php echo $year ?></p>
+                        </div>
+<?php
+                    }
+?>
                     </div>
                 </div>
 
@@ -262,7 +281,7 @@
 
                     <div class="col-lg-2 col-md-6 footer-links">
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="commandants.html">Past Commandants</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="pastcommandants.php">Past Commandants</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="https://mcl-west-hudson-detachment.square.site/">Quartermaster</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="shootingteam.html">Shooting Team</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="memoriam.php">In Memoriam</a></li>
