@@ -101,8 +101,9 @@
             }
 
             $noItems = count($lines);
-            for($a=0; $a < $noItems; $a++) {
-                list($name, $year) = preg_split("[\t]", rtrim($lines[$a]));
+            // Skip the header
+            for($a=1; $a < $noItems; $a++) {
+                list($lineNo, $name, $year) = preg_split("[\t]", rtrim($lines[$a]));
 ?>
             <div class="col-lg-3 col-md-6 align-items-center" data-aos="zoom-in" data-aos-delay="150">
                 <h4><?php echo $name ?></h4>

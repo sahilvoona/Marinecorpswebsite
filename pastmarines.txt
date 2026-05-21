@@ -1,158 +1,176 @@
-Frank Buffardi	2025
-Walter Rudolph	2022
-Edwin Ramirez	2022
-Roger Maccagnano	2022
-Ronald Leminelle	2022
-John Schmidt	2021
-Angel Otero	2021
-Charles H. Robinson	2020
-Thomas DeFrancisci	2019
-Andrew Sinatra	2019
-Arthur Thun	2019
-Joseph McLaughlin	2018
-Robert Cummings	2017
-Gib Kanter	2017
-Francis “Scotty” Scott	2017
-Murray Sklar, P.C.	2016
-Charles Norris	2016
-Victor Villalta	2016
-William Collins	2016
-John deVries	2016
-John Gunther	2016
-Andrew Horvath	2015
-Zigmond (Ziggy) Gasiewicz	2015
-Walter Budzinski	2015
-Howard Smith	2014
-Ralph Fernandez	2014
-Vernon Davies	2014
-Ed Pflugi	2014
-John Milano	2014
-Francis McKeown	2013
-Henry Bellene	2013
-Salvatore Lomberto	2013
-Salvatore Marotti	2013
-Ferdinand Stecher	2012
-Hugh McNulty JR.	2012
-James Salzano	2012
-John Holle	2012
-John Leahy	2012
-John Mezanko	2012
-John Toms	2012
-Charles Roussel	2011
-Curtis Nelson	2011
-James Mullaney	2011
-John Mikita	2011
-Omar Padilla	2011
-Thomas Bachler	2011
-W. Calligan	2011
-Francis Kraemer	2010
-Joseph Ford	2010
-Joseph Liquori	2010
-Robert McGuiness, P.C.	2010
-Sherman Hirschfeld	2010
-Vincent Arnold	2010
-Gabriel Viggiani, P.C.	2009
-Harvey N. Lawshe	2009
-Murray Bromberg	2009
-Joseph Gretkowski	2008
-Frank Dumchat	2008
-Bill McDonough, P.C.	2008
-Elmer “Lucky” Bellene	2007
-Michael Consi	2007
-William Miller	2007
-Edward Waltner	2006
-Frank Amabile	2006
-George E. Patunas	2006
-John P. Ward	2006
-Joseph Jecina	2006
-Mario Danieli	2006
-Warren Martin, P.C.	2006
-William Hart	2006
-Donald Alvine	2005
-Kenneth Hacker	2005
-	Ken Saam Sr., P.C.	2005
-Roddy MacDonald, P.C.	2005
-Vincent Fale	2005
-Florence Grygielko	2004
-James Green	2004
-Lewis Gash	2004
-Robert Coughlin	2004
-Alfred Stadius	2003
-Gerry Gaglio	2003
-John Sopczak	2003
-Joseph Conroy	2003
-Richard Eagan	2003
-Sal DeCarlo	2003
-Edward Palac	2002
-Henry Kiesche, H.M.	2002
-Tracy Estavz, H.M.	2002
-James White	2002
-Miriam Chernetz	2002
-Andrew Buchanan	2001
-William McColgan, H.M.	2006
-James Schaefer	2001
-Robert Dennis	2001
-Thomas Watson	2001
-James Powell	2000
-John E. Kelly	2000
-Robert Neumann	2000
-Tony Videyko	2000
-Chet Gorski	1999
-Dom Rinaldi	1999
-Edward Johnson	1999
-John Morris	1999
-Pat Mellea	1999
-Dennis McCarthy	1998
-Ed Smith	1998
-Eugene Mougel	1998
-Harold Spiro	1998
-Harry Jacobs	1998
-Irving Chernetz	1998
-James Noonan	1998
-Larry Sylvester	1998
-Peter Poulos	1998
-Robert McCrea	1998
-Thomas Cumiskey	1998
-Walter Wilczynski	1998
-Chris Yorio	1997
-Frank Diglio	1997
-John Farrow	1997
-Frank Conners	1996
-John Ruggiero	1996
-Joseph Fiore	1996
-Joseph Gribbon	1996
-Joseph Palamara	1996
-Michael Horn	1996
-Phil Maddalena	1996
-Jack Goldstein	1995
-John “Doc” Fellers	1995
-Mike Agresta	1995
-Alan Fulginiti	1993
-Eugene Pickel	1993
-James McKeown	1993
-Esse Davis, P.C.	1993
-Ray Nesby	1993
-Ansel Dilley	1992
-Fred Becker	1992
-Frank Goodman, P.C.	1991
-Harry Tuck	1990
-Walter Mould, H.M.	1990
-Leo Graham	1990
-Herb Mielke, P.C.	1990
-John Fronton	1989
-John Juskiewicz	1988
-Mike Drury, P.C.	1988
-Edward Gendwilla	1987
-George Steinbacher	1987
-Rudy Duffner	1987
-Cletus Butts	1986
-Spike Malaro, P.C.	1986
-Charles Rodblat	1985
-Jimmy Morgan	1985
-Dominic Chuvalo	1984
-Earl Bryson	1983
-George Merz	1983
-Ira Frank	1983
-Jimmy Maguire	1982
-Jack Brennan	1980
-Stanley Chaplain	1980
+No.	Name	Year	Notes
+175	Frank Buffardi	2025	
+174	James Curcio	2024	
+173	John Humphrey	2024	
+172	Edwin Ramirez	2022	
+171	Dennis W. Davitt	2022	
+170	Walter Rudolph	2022	
+169	John A. Driscoll	2022	
+168	William Maskal	2022	
+167	Roger Maccagnano, P.C.	2022	
+166	Ronald T. Leminelle, P.C.	2022	
+165	Thomas J. Conlon	2021	
+164	John Schmidt, P.C.	2021	
+163	Angel R. Otero	2021	
+162	Robert R. Lynch	2020	
+161	Charles H. Robison	2020	
+160	Arthur Thun	2019	
+159	Andrew Sinatra	2019	
+158	Thomas DeFrancisci	2019	
+157	Joseph A. McLaughlin	2018	
+156	Dante Del Maestro	2017	
+155	Francis "Scotty" Scott	2017	
+154	Gib Kanter	2017	
+153	John Gunther	2016	
+152	Brian T. Wall	2016	
+151	Murray Sklar, P.C., H.P.D.C	2016	
+150	William J. Collins	2016	
+149	John De Vries	2016	
+148	Charles Norris	2016	
+147	Victor Villalta	2016	
+146	Robert Cummings	2015	
+145	Walter S. Budzinski	2015	
+144	Andrew Horvath	2015	
+143	Patrick O'Callaghan	2015	
+142	Zigmond (Ziggy) Gasiewicz	2015	
+141	Donald J. Kaywork	2014	
+140	Robert Gast	2014	
+139	Howard P. Smith	2014	
+138	Ralph Fernandez	2014	
+137	Ed Pflugi	2014	
+136	Vernon Davies	2014	
+135	John Milano	2014	
+134	Salvatore Marotti	2013	
+133	Francis McKeown	2013	
+132	Henry Bellene	2013	
+131	Salvatore Lomberto	2013	
+130	James Salzano	2012	
+129	John Leahy	2012	
+128	John Mezanko	2012	
+127	John Toms	2012	
+126	Hugh McNulty Jr.	2012	
+125	William Magai	2012	
+124	Ferdinand Stecher	2012	
+123	John Holle	2012	
+122	Curtis Nelson	2011	
+121	James Mullaney	2011	
+120	Thomas Bachler	2011	
+119	W. D. Calligan	2011	
+118	Omar Padilla	2011	
+117	John Mikita	2011	
+116	Charles T. Roussel	2011	
+115	Vincent P. Arnold	2010	
+114	Sherman Hirschfeld	2010	
+113	Joseph Liquori	2010	
+112	Francis J. Kraemer	2010	
+111	Robert McGuiness, P.C.	2010	
+110	Joseph G. Ford	2010	
+109	Charles De Vries	2009	
+108	Murray Bromberg	2009	
+107	Joseph Ciannilli, C.M.	2009	
+106	Robert R. Rainey	2009	
+105	Gabriel Viggiani, P.C.	2009	
+104	Harvey N. Lawshe	2009	
+103	Joseph Gretkowski	2008	
+102	William McDonough, P.C., C.M.	2008	
+101	Frank Dumschat, C.M.	2008	
+100	Michael Consi	2007	
+99	William Miller	2007	
+98	Elmer "Lucky" Bellene	2007	
+97	Frank Amabile	2006	
+96	Joseph Jecina	2006	
+95	George E. Patunas	2006	
+94	Edward J. Waltner	2006	
+93	Mario F. Danielli	2006	
+92	John Ward	2006	
+91	William J. Hart	2006	
+90	A. Warren Martin, P.C.	2006	
+89	Donald Alvine	2005	
+88	Rodrick MacDonald, P.C.	2005	
+87	Vincent Fale	2005	
+86	Kenneth Hacker	2005	
+85	James E. Green	2004	
+84	Florence Grygielko	2004	
+83	Lewis Gash	2004	
+82	Robert Coughlin	2004	
+81	Kenneth Saam Sr., P.C.	2004	
+80	Richard Eagan	2003	
+79	John Sopczak	2003	
+78	Alfred Stadius	2003	
+77	Joseph Conroy	2003	
+76	Sal DeCarlo	2003	
+75	Gerry Gaglio	2003	
+74	Miriam Chernetz	2002	
+73	Tracy Estavz, H.M.	2002	
+72	Henry Kiesche, H.M.	2002	
+71	James White	2002	
+70	Edward Palac	2002	
+69	Andrew Buchanan	2001	
+68	William McColgan, H.M.	2001	
+67	Thomas Watson	2001	
+66	James Schaefer	2001	
+65	Robert Dennis	2001	
+64	James Powell	2000	
+63	Robert L. Neumann	2000	
+62	John E. Kelly	2000	
+61	Anthony Videyko	2000	
+60	Larry Sylvester	1999	
+59	Pat Mellea	1999	
+58	Chet Gorski	1999	
+57	John Morris	1999	
+56	Edward Johnson	1999	
+55	Domenick Rinaldi	1999	
+54	Harry Jacobs	1998	
+53	James Noonan	1998	
+52	Irving Chernetz	1998	
+51	Walter Wilczynski	1998	
+50	Robert McCrea	1998	
+49	Peter Poulos	1998	
+48	Harold Spiro	1998	
+47	Edward Smith	1998	
+46	Dennis McCarthy	1998	
+45	Eugene Mougel	1998	
+44	Thomas Cumiskey	1998	
+43	Frank Diglio	1997	
+42	John Farrow	1997	
+41	Chris Yorio	1997	
+40	John Ruggiero	1996	
+39	Joseph Palamara	1996	
+38	Michael Horn	1996	
+37	Joseph Fiore	1996	
+36	Joseph Gribbon	1996	
+35	Phil Maddalena	1996	
+34	Frank Conners	1996	
+33	John "Doc" Fellers	1995	
+32	Jack Goldstein	1995	
+31	Mike Agresta	1995	
+30	Esse Davis, P.C.	1993	
+29	Eugene W. Pickel	1993	
+28	James T. McKeown Sr.	1993	
+27	Alan M. Fulginiti	1993	
+26	Ray C. Nesby	1993	
+25	Fred Becker	1992	
+24	Ansel Dilley	1992	
+23	Frank Goodman, P.C.	1991	
+22	Leo Graham	1991	
+21	Walter Mould, H.M.	1990	
+20	Herb Mielke, P.C.	1990	
+19	Harry Tuck	1990	
+18	John Fronton	1989	
+17	John Juskiewicz	1988	
+16	Mike Drury, P.C.	1988	
+15	Edward Gendwilla	1987	
+14	Felix Fox, H.M.	1987	
+13	Rudy Duffner	1987	
+12	George Steinbacker	1987	
+11	Cletus Butts	1986	
+10	Spike Malaro, P.C.	1986	
+9	Charles Rodblat	1985	
+8	Jimmy Morgan	1985	
+7	Dominic Chuvalo	1984	
+6	Earl Bryson	1983	
+5	George Merz	1983	
+4	Ira Frank	1983	
+3	Jimmy Maguire	1982	
+2	Jack Brennan	1980	
+1	Stanley Chaplain	1980	
